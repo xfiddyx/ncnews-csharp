@@ -23,6 +23,7 @@ namespace NcNews.Controllers
    _articleRepo = articleRepo;
    _mapper = mapper;
   }
+  //comment
 
   [HttpGet]
   public ActionResult<IEnumerable<Articles>> GetAllUsers()
