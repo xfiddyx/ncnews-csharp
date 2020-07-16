@@ -45,7 +45,6 @@
 /Users/swoods/Projects/NcNewsAPI/NcNews/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/swoods/Projects/NcNewsAPI/NcNews/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/swoods/Projects/NcNewsAPI/NcNews/bin/Debug/netcoreapp3.1/NcNews.Views.dll
-/Users/swoods/Projects/NcNewsAPI/NcNews/bin/Debug/netcoreapp3.1/NcNews.Views.pdb
 /Users/swoods/Projects/NcNewsAPI/NcNews/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
 /Users/swoods/Projects/NcNewsAPI/NcNews/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
 /Users/swoods/Projects/NcNewsAPI/NcNews/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
