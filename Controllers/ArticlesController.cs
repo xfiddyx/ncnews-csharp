@@ -26,7 +26,7 @@ namespace NcNews.Controllers
   //comment
 
   [HttpGet]
-  public ActionResult<IEnumerable<Articles>> GetAllUsers()
+  public ActionResult<IEnumerable<Articles>> GetAllArticles()
   {
    var result = _articleRepo.GetAllArticles();
 

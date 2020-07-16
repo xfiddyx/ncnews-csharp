@@ -19,8 +19,6 @@ namespace NcNews.Data
   public IEnumerable<Articles> GetAllArticles()
   {
    return _context.Article.ToList();
-
-
   }
 
   public Articles GetArticleById(int id)

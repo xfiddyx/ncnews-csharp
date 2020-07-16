@@ -23,12 +23,10 @@ namespace NcNews
  {
   public Startup(IConfiguration configuration, IWebHostEnvironment env)
   {
-   Environment = env;
    Configuration = configuration;
   }
 
   public IConfiguration Configuration { get; }
-  public IWebHostEnvironment Environment { get; }
 
   // This method gets called by the runtime. Use this method to add services to the container.
   public void ConfigureServices(IServiceCollection services)
@@ -50,16 +48,7 @@ namespace NcNews
     s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
    });
 
-   if (Environment.IsDevelopment())
-   {
-    services.AddDbContext<NcNewsContext>(options =>
-    options.UseNpgsql(Configuration.GetConnectionString("NcNewsConnection")));
-   }
-   else
-   {
-    services.AddDbContext<NcNewsContext>(options =>
-options.UseNpgsql(Configuration.GetConnectionString("NcNewsConnection")));
-   }
+
   }
 
   // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
