@@ -20519,32 +20519,6 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "NcNews",
-  "Documents": [
-    {
-      "FilePath": "/Users/swoods/Projects/NcNewsAPI/NcNews/Pages/Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/swoods/Projects/NcNewsAPI/NcNews/Pages/Shared/_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/swoods/Projects/NcNewsAPI/NcNews/Pages/_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/swoods/Projects/NcNewsAPI/NcNews/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/swoods/Projects/NcNewsAPI/NcNews/Pages/Articles/index.cshtml",
-      "TargetPath": "Pages\\Articles\\index.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.2"
 }
