@@ -28,6 +28,5 @@ namespace NcNews.Models
 
   { get; set; } = DateTime.Now.ToString("dddd, dd MMMM yyyy");
 
-  public int votes { get; set; } = 0;
  }
 }
