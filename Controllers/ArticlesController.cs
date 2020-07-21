@@ -56,7 +56,7 @@ namespace NcNews.Controllers
    if (article == null)
    {
     return NotFound();
-   }
+   }//
 
    var articleDto = _mapper.Map<UpdateCommentDto>(article);
 
